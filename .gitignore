@@ -1,0 +1,11 @@
+# Ignorar archivos temporales de Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Ignorar entornos virtuales locales (si los crearas dentro de la carpeta)
+env/
+venv/
+
+# Ignorar datos sensibles o muy pesados (opcional, descomenta si lo necesitas)
+# datos/*.csv
