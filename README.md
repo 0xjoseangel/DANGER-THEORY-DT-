@@ -37,7 +37,7 @@ Para garantizar que todos trabajamos con las mismas versiones de las librerías 
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone [https://github.com/TU_USUARIO/Investigacion_DT_1992.git](https://github.com/TU_USUARIO/Investigacion_DT_1992.git)
+    git clone git@github.com:0xjoseangel/DANGER-THEORY-DT-.git
     cd Investigacion_DT_1992
     ```
 
