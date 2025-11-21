@@ -1,0 +1,87 @@
+Dear Alain,
+
+It looks like our initial guess for why the Bundesbank intervention data in the Bundesbank annual reports and the BoE reports are not the same was not on the mark.  The differences seem to have to do with "the valuation of certain liabilities."  Not helpful.  But Mr. Reich also points to an alternative source that may match up with the BoE reports.  Let me know what you think of all this.
+
+Best
+
+Barry
+
+
+-------- Forwarded Message --------
+Subject: 	ERM crisis - intervention data
+Date: 	Fri, 17 May 2019 16:55:18 +0200
+From: 	jens.reich@bundesbank.de
+To: 	eichengr@berkeley.edu
+CC: 	marlies.ria.uekermann@bundesbank.de, claudia.buch@bundesbank.de, philipp.burkard@bundesbank.de, stefan.hopp@bundesbank.de, silvia.ledebur@bundesbank.de, guenther.heuser@bundesbank.de
+
+
+Dear Prof. Eichengreen,
+
+
+I'm writing you on behalf of Claudia Buch. We have had a look at the data as printed in Globalizing Capital (1996) and our annual reports.
+
+As a first step we varified the data as reported in your book and thos as reported in our annual report. The data matches perfectly.
+
+∑ values 1983 are according to Bundesbank annual report 1984 (p. 69) https://www.bundesbank.de/resource/blob/690158/0010445b2770f00e0c1f5a41a755a5b1/mL/1984-geschaeftsbericht-data.pdf
+∑ values 1984 and 1985 are according to Bundesbank annual report 1985 (p. 72) https://www.bundesbank.de/resource/blob/690166/c781e0cb26ddcfdc0af0836948be73d7/mL/1985-geschaeftsbericht-data.pdf
+∑ values 1986 and 1987 are according to Bundesbank annual report 1987 (p. 32) https://www.bundesbank.de/resource/blob/690160/778e732c500c5d9fe7b4eeee7a0f1eb1/mL/1987-geschaeftsbericht-data.pdf
+∑ values 1988 and 1989 are according to Bundesbank annual report 1989 (p. 31) https://www.bundesbank.de/resource/blob/690180/77d7a9cda4a0f33e15f7de9cf6d246cb/mL/1989-geschaeftsbericht-data.pdf
+∑ values 1990 and 1991 are according to Bundesbank annual report 1991 (p. 39) https://www.bundesbank.de/resource/blob/690190/daf8cda78e218ce54d6d5688d3ca74f1/mL/1991-geschaeftsbericht-data.pdf
+∑ values 1992 are according to Bundesbank annual report 1992 (p. 47) https://www.bundesbank.de/resource/blob/690188/3bda9e91427a5f0743d519fc32fff8c6/mL/1992-geschaeftsbericht-data.pdf 
+∑ values 1993/1 to 1994/2 are according to Bundesbank annual report 1993 (p. 55) https://www.bundesbank.de/resource/blob/690196/7d3a6ae8d7b590fe0335b7125bf8ef37/mL/1993-geschaeftsbericht-data.pdf 
+
+According to the Bundesbank annual reports, the data shows the changes in the net external position of Deutsche Bundesbank. The positive values are the operations in foreign exchange markets by other central banks which are financed by the Bundesbank. The negative values are debt resettlements / repayments by EMS partners to the Bundesbank. Unit of account is DM billion except for the 1984 report where it's DM million.
+
+The net external assets - calculated at transaction values - flowed to the Bundesbank through its own support purchases and through its financing of intervention by other central banks in favour of the ltalian lira, the pound sterling and the French franc. Hence the aggregate - expressed in DM - are the purchases or the financing operations of different currencies. Swaps are apparently not included and interventions on behalf of foreign banks are included. So the difference to BoE data should not be due to such differences.
+
+What we found out, talking to the people responsible for the annual report is however the following: The data as reported in the annual report differs from the values recorded in the statistics department. The reasons are different principles how to account for certain liabilities.
+Our specialist for accounting rules regarding the annual report is Philipp Burkard (Philipp.burkard@bundesbank.de). You can contact him in case you need more information on the differences in accounting the net external position.
+
+You can find the values as recorded - not according to accounting principles - in the "Statistische Beihefte - Reihe 3 - 12 Auslandspositionen der Deutschen Bundesbank". One should be able to calculate the Interventions on this basis.
+You can find the Statistische Beihefte for 1990-1999 under the following link.
+http://publikationszugriff.inet.bundesbank.de/index.aspx?nav=Deutsche+Bundesbank%5cStatistische+Beihefte%5cReihe+3%5c1990+-+1999%5c1990
+I gues you would have to compare the values as reported there to those of the BoE.  In case you have questions regarding the reported data you can get back to Silvia von Ledebur (Silvia.Ledebur@Bundesbank.de) in the statistics department.
+
+Good luck with your lecture in Frankfurt. I hope I'll make it to attend one of your lectures.
+
+Best wishes
+Jens Reich
+_____________________________________________________
+Dr. Jens Reich
+Deutsche Bundesbank
+Directorate General Financial Stability
+Strategic Policy Group
+
+Wilhelm-Epstein-Straﬂe 14
+60431 Frankfurt am Main
+
+Tel.: 069 9566-2907
+Fax: 069 956650-2907
+E-Mail: jens.reich@bundesbank.de
+www.bundesbank.de 
+
+
+
+
+Von: Barry Eichengreen <eichengr@berkeley.edu>
+Datum Mittwoch, 08. Mai 2019, 4:10 AM
+An: claudia.buch@bundesbank.de <claudia.buch@bundesbank.de>
+Betreff:
+
+
+
+
+Dear Claudia,
+
+I am about to send you and colleagues an email with some good news about the Bellagio Group.  But first, something completely different.  A colleague and I are doing some historical work on the 1992-3 ERM crisis.  We have daily intervention data for ERM central banks from the Bank of England archives.  (Nearly all ERM central banks shared this information with the BoE.)  But there is intervention data as well in the Bundesbank's annual reports, which I used in my book _Globalizing Capital_.  Peculiarly, the two data sets don't match.  See:
+
+[IMAGE]
+
+One potential explanation is that the Bundesbank annual report includes currency swaps as well as direct purchases and sale (intervention) in the market, whereas the dealers' reports in the Bank of England archives do not.  Another possibility is that the Bundesbank annual report does not include Bundesbank intervention on behalf of foreign central banks like the Bank of France.
+
+I am wondering whether there is an archivist and whether there are archival materials that may help me sort this out.  I'll be at the Goethe University from May 11 through June 3.
+
+Best wishes,
+
+Barry
+(See attached file: jpdkcdbkilpoblji.png)
