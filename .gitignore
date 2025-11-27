@@ -9,3 +9,6 @@ venv/
 
 # Ignorar datos sensibles o muy pesados (opcional, descomenta si lo necesitas)
 # datos/*.csv
+
+# MyST build outputs
+_build

@@ -1,0 +1,53 @@
+# Jupyter Book configuration (professional defaults)
+# Docs: https://jupyterbook.org/en/stable/customize/config.html
+
+# Basic site info
+title: "Danger Theory"
+author: "José Ángel Carretero Montes & Minerva Cebrián Marín"
+language: "es"
+
+# Paths for logo/favicon (place files under `images/`)
+logo: images/logo.png
+favicon: images/favicon.ico
+
+# Repository settings (used for 'Edit on GitHub' links)
+repository:
+  url: https://github.com/0xjoseangel/DANGER-THEORY-DT-
+  path_to_book: .
+  branch: main
+
+# HTML / theme options
+html:
+  baseurl: "/DANGER-THEORY-DT-/"
+  use_repository_button: true
+  use_edit_page_button: true
+  additional_css: []
+  additional_js: []
+
+# Enable launch buttons (Binder/Thebe)
+launch_buttons:
+  binderhub_url: "https://mybinder.org"
+  thebe: true
+  binder: true
+  colab: false
+
+# Execution: control how notebooks are executed when building
+execute:
+  execute_notebooks: "auto"  # options: always, auto, never
+
+# Sphinx config overrides (if needed)
+sphinx:
+  config:
+    html_search_language: 'es'
+    # Example: increase TOC depth
+    numfig: true
+
+# Build options
+parse:
+  myst_nb:
+    allow_errors: false
+
+# Extra metadata for downstream templates
+extra:
+  description: "Libro y notebooks sobre la Danger Theory — notas del seminario."
+  keywords: ["danger theory","immunology","seminar","notebooks"]

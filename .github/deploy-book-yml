@@ -1,0 +1,39 @@
+name: deploy-book
+
+# Se ejecuta solo cuando haces push a la rama main
+on:
+  push:
+    branches:
+      - main
+
+# Este trabajo instala dependencias, construye el libro y lo despliega
+jobs:
+  deploy-book:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    # Instala Python
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.9
+
+    # Instala Jupyter Book (y cualquier otra librería que uses, si tienes requirements.txt úsalo aquí)
+    - name: Install dependencies
+      run: |
+        pip install -U pip
+        pip install jupyter-book
+
+    # Construye el libro (igual que lo haces en local)
+    - name: Build the book
+      run: |
+        jupyter-book build .
+
+    # Empuja la carpeta construida (_build/html) a la rama gh-pages
+    - name: GitHub Pages action
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./_build/html

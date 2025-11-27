@@ -1,0 +1,9 @@
+# Table of contents for Jupyter Book
+# Minimal structure: README (root) and main notebook
+format: jb-book
+root: README
+
+parts:
+  - caption: "Contenido"
+    chapters:
+      - file: main
