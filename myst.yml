@@ -21,12 +21,3 @@ project:
 
 site:
   template: book-theme
-  options:
-    search: true
-    # Habilita botones de descarga y repositorio
-    launch_buttons:
-      enable: true
-      binderhub_url: https://mybinder.org
-  actions:
-    - title: Descargar PDF
-      url: project.pdf
