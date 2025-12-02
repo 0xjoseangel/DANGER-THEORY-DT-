@@ -1,28 +1,32 @@
-# See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
   id: 6c559b26-f15e-4535-b035-7b0fa747c81b
   title: Danger Theory
   description: "Libro sobre la 'Danger Theory' — análisis, notas y notebooks del seminario."
-  keywords: ["danger theory", "immunology", "seminar", "notebooks"]
-  authors: ["Jose Angel Carretero Montes", "Minerva Cebrian Marin"]
+  authors: 
+    - name: "Jose Angel Carretero Montes"
+    - name: "Minerva Cebrian Marin"
   github: https://github.com/0xjoseangel/DANGER-THEORY-DT-
   license: CC-BY-4.0
   repository:
     url: https://github.com/0xjoseangel/DANGER-THEORY-DT-
     branch: main
     path: .
-  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  
+  # --- ESTA ES LA PARTE QUE TE FALTABA ---
+  # Define el orden de las páginas en el menú lateral
+  toc:
+    - file: README.md    # Esta será la portada (Intro)
+    - file: main.ipynb   # Este es tu cuaderno con el código
+
 site:
   template: book-theme
   options:
-    #favicon: images/favicon.ico
-    #logo: images/logo.png
-    google_analytics: UA-XXXXXXXXX-X
     search: true
-    navbar:
-      - Home: README.md
-    # Habilita botones de lanzamiento (thebe / binder) si los proporciona la plantilla
+    # Habilita botones de descarga y repositorio
     launch_buttons:
       enable: true
       binderhub_url: https://mybinder.org
+  actions:
+    - title: Descargar PDF
+      url: project.pdf
