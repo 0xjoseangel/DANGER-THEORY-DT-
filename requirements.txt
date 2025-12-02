@@ -10,7 +10,7 @@ beautifulsoup4 @ file:///home/conda/feedstock_root/build_artifacts/beautifulsoup
 bleach @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_bleach_1737382993/work
 Brotli @ file:///home/conda/feedstock_root/build_artifacts/brotli-split_1761591974641/work
 cached-property @ file:///home/conda/feedstock_root/build_artifacts/cached_property_1615209429212/work
-certifi @ file:///home/conda/feedstock_root/build_artifacts/certifi_1759648874697/work/certifi
+certifi @ file:///home/conda/feedstock_root/build_artifacts/certifi_1762976168352/work/certifi
 cffi @ file:///home/conda/feedstock_root/build_artifacts/cffi_1761202892040/work
 charset-normalizer @ file:///home/conda/feedstock_root/build_artifacts/charset-normalizer_1760437218288/work
 comm @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_comm_1753453984/work
@@ -20,6 +20,7 @@ deap @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_deap_
 debugpy @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_debugpy_1758162035/work
 decorator @ file:///home/conda/feedstock_root/build_artifacts/decorator_1740384970518/work
 defusedxml @ file:///home/conda/feedstock_root/build_artifacts/defusedxml_1615232257335/work
+et_xmlfile @ file:///home/conda/feedstock_root/build_artifacts/et_xmlfile_1733749653422/work
 exceptiongroup @ file:///home/conda/feedstock_root/build_artifacts/exceptiongroup_1746947292760/work
 executing @ file:///home/conda/feedstock_root/build_artifacts/executing_1756729339227/work
 fastjsonschema @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_python-fastjsonschema_1755304154/work/dist
@@ -44,6 +45,7 @@ json5 @ file:///home/conda/feedstock_root/build_artifacts/json5_1755034879854/wo
 jsonpointer @ file:///home/conda/feedstock_root/build_artifacts/jsonpointer_1756754147811/work
 jsonschema @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_jsonschema_1755595646/work
 jsonschema-specifications @ file:///tmp/tmptzik3dqa/src
+jupyter-book==2.0.2
 jupyter-events @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_jupyter_events_1738765986/work
 jupyter-lsp @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_jupyter-lsp_1756388269/work/jupyter-lsp
 jupyter_client @ file:///home/conda/feedstock_root/build_artifacts/jupyter_client_1733440914442/work
@@ -64,8 +66,10 @@ nbclient @ file:///home/conda/feedstock_root/build_artifacts/nbclient_1734628800
 nbconvert @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_nbconvert-core_1760797634/work
 nbformat @ file:///home/conda/feedstock_root/build_artifacts/nbformat_1733402752141/work
 nest_asyncio @ file:///home/conda/feedstock_root/build_artifacts/nest-asyncio_1733325553580/work
+nodeenv==1.9.1
 notebook_shim @ file:///home/conda/feedstock_root/build_artifacts/notebook-shim_1733408315203/work
 numpy @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_numpy_1761162099/work/dist/numpy-2.3.4-cp314-cp314-linux_x86_64.whl#sha256=5bfe8dc5d221081af721b71cac0c79776c81a907bd394e7258935f37914be2cf
+openpyxl @ file:///home/conda/feedstock_root/build_artifacts/openpyxl_1757332071395/work
 overrides @ file:///home/conda/feedstock_root/build_artifacts/overrides_1734587627321/work
 packaging @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_packaging_1745345660/work
 pandas @ file:///home/conda/feedstock_root/build_artifacts/pandas_1759265530236/work

@@ -5,8 +5,12 @@ on:
   push:
     branches:
       - main
+  # Permite ejecutarlo manualmente desde la pestaña Actions
+  workflow_dispatch:
 
-# Este trabajo instala dependencias, construye el libro y lo despliega
+permissions:
+  contents: write
+
 jobs:
   deploy-book:
     runs-on: ubuntu-latest
@@ -14,26 +18,30 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
 
-    # Instala Python
     - name: Set up Python 3.9
       uses: actions/setup-python@v4
       with:
         python-version: 3.9
 
-    # Instala Jupyter Book (y cualquier otra librería que uses, si tienes requirements.txt úsalo aquí)
+    # Instala dependencias
     - name: Install dependencies
       run: |
         pip install -U pip
         pip install jupyter-book
+        # ¡IMPORTANTE! Instala las librerías de tu TFM si tienes un requirements.txt
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        # Si no tienes requirements.txt, descomenta la siguiente línea:
+        # pip install pandas numpy matplotlib seaborn deap openpyxl
 
-    # Construye el libro (igual que lo haces en local)
+    # Construye el libro
     - name: Build the book
       run: |
         jupyter-book build .
 
-    # Empuja la carpeta construida (_build/html) a la rama gh-pages
+    # Empuja la carpeta construida a la rama gh-pages
     - name: GitHub Pages action
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./_build/html
+        # CORRECCIÓN AQUÍ: Apuntamos a la nueva carpeta de salida
+        publish_dir: ./_build/site
