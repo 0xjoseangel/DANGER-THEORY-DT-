@@ -1,0 +1,6 @@
+# _toc.yml
+format: jb-book
+root: README  # Esto enlaza a README.md como portada
+
+chapters:
+  - file: main  # Esto enlaza a main.ipynb

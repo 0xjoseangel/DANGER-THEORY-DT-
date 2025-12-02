@@ -1,0 +1,20 @@
+# _config.yml
+title: Danger Theory
+author: Jose Angel Carretero Montes, Minerva Cebrian Marin
+copyright: "2024" # O el año que quieras
+logo: "" # Si tienes un logo, pon la ruta aquí (ej: logo.png)
+
+# Información del repositorio para los botones de GitHub
+repository:
+  url: https://github.com/0xjoseangel/DANGER-THEORY-DT-
+  path_to_book: "."
+  branch: main
+
+# Configuración de ejecución
+execute:
+  execute_notebooks: auto  # Ejecuta solo si faltan las salidas
+
+# Configuración HTML
+html:
+  use_issues_button: true
+  use_repository_button: true
