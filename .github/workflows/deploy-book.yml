@@ -1,53 +1,51 @@
 name: deploy-book
 
-# Run this when the master or main branch changes
 on:
   push:
     branches:
       - master
       - main
-    # If your git repository has the Jupyter Book within some-subfolder next to
-    # unrelated files, you can make this run only if a file within that specific
-    # folder has been modified.
-    #
-    # paths:
-    # - some-subfolder/**
 
-# This job installs dependencies, builds the book, and pushes it to `gh-pages`
 jobs:
   deploy-book:
     runs-on: ubuntu-latest
     permissions:
       pages: write
       id-token: write
-    # https://github.com/marketplace/actions/setup-miniconda#example-3-other-options
     defaults:
       run:
         shell: bash -el {0}
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v4
 
-      # Install dependencies
+      # 1. Instalamos las librerías de Python (NumPy, Pandas, etc.)
+      # Necesario si tus notebooks ejecutan código Python
       - uses: conda-incubator/setup-miniconda@v3
         with:
-          # If you don't have `python` included as a package in your `environment.yml`:
-          # python-version: '3.13'
           environment-file: environment.yml
           auto-activate-base: false
           activate-environment: computing-in-context
 
-      # Build the book
+      # 2. Instalamos Node.js (Necesario para el nuevo motor MyST)
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # 3. Instalamos la herramienta MyST CLI
+      - name: Install MyST
+        run: npm install -g myst
+
+      # 4. Construimos el libro usando el comando 'myst' (NO jupyter-book)
       - name: Build the book
         run: |
-          jupyter-book build .
+          myst build --html
 
-      # Upload the book's HTML as an artifact
+      # 5. Subimos el artefacto (MyST usa '_build/site', así que esto ahora SÍ es correcto)
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: _build/html
+          path: _build/site
 
-      # Deploy the book's HTML to GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
