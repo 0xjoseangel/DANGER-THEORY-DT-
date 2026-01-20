@@ -1,0 +1,53 @@
+# Configuración de Jupyter Book
+# Danger Theory: Detección de Crisis Financieras
+
+title: "Danger Theory"
+author: "José Ángel Carretero Montes & Minerva Cebrián Marín"
+copyright: "2024"
+logo: ""
+
+# Configuración del libro
+execute:
+  execute_notebooks: "off"  # No ejecutar notebooks al construir (ya tienen outputs)
+
+# Formato de salida
+sphinx:
+  config:
+    language: es
+    html_theme_options:
+      navigation_depth: 3
+    latex_elements:
+      preamble: |
+        \usepackage[utf8]{inputenc}
+        \usepackage[spanish]{babel}
+        \usepackage{amsmath}
+        \usepackage{amssymb}
+        \usepackage{graphicx}
+        \usepackage{booktabs}
+        \usepackage{longtable}
+      papersize: a4paper
+      pointsize: 11pt
+      figure_align: "htbp"
+      tableofcontents: "\\tableofcontents"
+
+# Configuración LaTeX/PDF
+latex:
+  latex_engine: pdflatex
+  latex_documents:
+    targetname: danger_theory.tex
+
+# Información del repositorio
+repository:
+  url: https://github.com/usuario/DANGER-THEORY-DT-
+  branch: main
+
+# Opciones de parsing
+parse:
+  myst_enable_extensions:
+    - amsmath
+    - dollarmath
+    - colon_fence
+
+# Bibliografía
+bibtex_bibfiles:
+  - references.bib
