@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch:  # Permite ejecutar manualmente
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -33,6 +33,15 @@ jobs:
       - name: Build HTML
         working-directory: book
         run: myst build --html
+
+      - name: Debug - List build output
+        run: |
+          echo "=== Contenido de book/_build ==="
+          ls -la book/_build/ || echo "No existe book/_build"
+          echo "=== Contenido de book/_build/html ==="
+          ls -la book/_build/html/ || echo "No existe book/_build/html"
+          echo "=== Contenido de book/_build/site ==="
+          ls -la book/_build/site/ || echo "No existe book/_build/site"
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
