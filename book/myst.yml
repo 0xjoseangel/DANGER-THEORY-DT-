@@ -1,0 +1,102 @@
+version: 1
+
+project:
+  title: "Danger Theory: Detección de Crisis Financieras"
+  subtitle: "Aplicación de Algoritmos Evolutivos a la Predicción de Crisis Cambiarias"
+  authors:
+    - name: José Ángel Carretero Montes
+      affiliations:
+        - Universidad de Granada
+    - name: Minerva Cebrián Marín
+      affiliations:
+        - Universidad de Granada
+  copyright: "2024"
+  license: CC-BY-4.0
+  keywords:
+    - danger theory
+    - crisis financieras
+    - algoritmos evolutivos
+    - miércoles negro
+    - crisis del tequila
+  date: 2024-12-01
+  bibliography:
+    - references.bib
+
+  # Configuración de idioma español
+  lang: es
+
+  # Configuración de matemáticas
+  math:
+    amsmath: true
+    dollarmath: true
+
+  toc:
+    - file: intro.md
+      title: Portada
+    - title: Fundamentos
+      children:
+        - file: 00_resumen.md
+          title: Resumen Ejecutivo
+        - file: 01_contexto_crisis_1992.ipynb
+          title: Contexto Histórico (1992)
+    - title: Metodología
+      children:
+        - file: 02_desarrollo_algoritmo.ipynb
+          title: Desarrollo del Algoritmo
+    - title: Validación
+      children:
+        - file: 03_validacion_robustez.ipynb
+          title: Validación de Robustez
+        - file: 04_validacion_crisis_mexico.ipynb
+          title: Crisis de México (1994)
+    - title: Cierre
+      children:
+        - file: 05_conclusiones.md
+          title: Conclusiones
+        - file: 06_referencias.md
+          title: Referencias
+
+  exports:
+    - format: pdf
+      template: plain_latex_book
+      output: danger_theory.pdf
+      # Configuración LaTeX para español y mejor formato
+      latex:
+        documentclass: book
+        papersize: a4
+        fontsize: 11pt
+        inputenc: utf8
+        babel: spanish
+        top_matter:
+          - "\\usepackage[T1]{fontenc}"
+          - "\\usepackage[utf8]{inputenc}"
+          - "\\usepackage[spanish,es-tabla]{babel}"
+          - "\\usepackage{amsmath}"
+          - "\\usepackage{amssymb}"
+          - "\\usepackage{graphicx}"
+          - "\\usepackage{booktabs}"
+          - "\\usepackage{longtable}"
+          - "\\usepackage{hyperref}"
+          - "\\usepackage{float}"
+          - "\\usepackage{caption}"
+          - "\\captionsetup{labelfont=bf}"
+          - "\\renewcommand{\\tablename}{Tabla}"
+          - "\\renewcommand{\\figurename}{Figura}"
+          - "\\renewcommand{\\contentsname}{Índice}"
+          - "\\renewcommand{\\chaptername}{Capítulo}"
+          - "\\renewcommand{\\bibname}{Bibliografía}"
+    - format: docx
+      output: danger_theory.docx
+
+site:
+  title: "Danger Theory: Detección de Crisis Financieras"
+  lang: es
+  options:
+    logo_text: "Danger Theory"
+    favicon: ""
+  template: book-theme
+  nav:
+    - title: Inicio
+      url: /
+    - title: GitHub
+      url: https://github.com/usuario/DANGER-THEORY-DT-

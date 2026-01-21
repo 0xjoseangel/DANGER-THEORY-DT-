@@ -2,14 +2,6 @@
 
 ---
 
-```{image} ../data/portada.png
-:alt: Portada
-:width: 0px
-:align: center
-```
-
-<div style="text-align: center; margin-top: 50px;">
-
 ## Aplicación de la Teoría del Peligro a la Predicción de Crisis Cambiarias
 
 ### Caso de Estudio: El Miércoles Negro (1992) y la Crisis del Tequila (1994)
@@ -35,8 +27,6 @@
 **Facultad de Ciencias Económicas y Empresariales**
 
 **2024**
-
-</div>
 
 ---
 
@@ -71,8 +61,3 @@ Este libro está organizado en seis capítulos:
 ## Agradecimientos
 
 Agradecemos al Dr. Alain Naef por facilitar los datos de intervenciones del Banco de Inglaterra, fundamentales para este análisis. También agradecemos a la Universidad de Granada por proporcionar el entorno académico para desarrollar esta investigación.
-
----
-
-```{tableofcontents}
-```
