@@ -26,7 +26,7 @@
 
 **Facultad de Ciencias Económicas y Empresariales**
 
-**2024**
+**2026**
 
 ---
 
