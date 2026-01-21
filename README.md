@@ -6,6 +6,20 @@ Este proyecto utiliza algoritmos evolutivos inspirados en inmunología biológic
 
 ---
 
+## Libro Interactivo
+
+**Explora el proyecto completo en nuestra web interactiva:**
+
+**[https://0xjoseangel.github.io/DANGER-THEORY-DT-/](https://0xjoseangel.github.io/DANGER-THEORY-DT-/)**
+
+El libro incluye:
+- Contexto histórico de la crisis del Miércoles Negro (1992)
+- Desarrollo completo del algoritmo de Danger Theory
+- Validación con datos sintéticos y la Crisis del Tequila (México, 1994)
+- Conclusiones y referencias bibliográficas
+
+---
+
 ## Tabla de Contenidos
 
 1. [Requisitos del Sistema](#requisitos-del-sistema)
