@@ -32,6 +32,8 @@ jobs:
 
       - name: Build HTML
         working-directory: book
+        env:
+          BASE_URL: /DANGER-THEORY-DT-
         run: myst build --html
 
       - name: Debug - List build output

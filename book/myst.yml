@@ -91,12 +91,13 @@ project:
 site:
   title: "Danger Theory: Detección de Crisis Financieras"
   lang: es
+  base_url: /DANGER-THEORY-DT-
   options:
     logo_text: "Danger Theory"
     favicon: ""
   template: book-theme
   nav:
     - title: Inicio
-      url: /
+      url: /DANGER-THEORY-DT-
     - title: GitHub
-      url: https://github.com/usuario/DANGER-THEORY-DT-
+      url: https://github.com/joseangel-sc/DANGER-THEORY-DT-
