@@ -1,0 +1,55 @@
+\begin{thebibliography}{8}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Dasgupta(1999)]{dasgupta1999}
+Dipankar Dasgupta.
+\newblock An overview of artificial immune systems.
+\newblock In \emph{Artificial immune systems and their applications}, pages
+  3--21. Springer, 1999.
+
+\bibitem[Forrest et~al.(1994)Forrest, Perelson, Allen, and
+  Cherukuri]{forrest1994}
+Stephanie Forrest, Alan~S Perelson, Lawrence Allen, and Rajesh Cherukuri.
+\newblock Self-nonself discrimination in a computer.
+\newblock In \emph{Proceedings of the 1994 IEEE Symposium on Research in
+  Security and Privacy}, pages 202--212. IEEE, 1994.
+
+\bibitem[Krugman(1979)]{krugman1979}
+Paul Krugman.
+\newblock A model of balance-of-payments crises.
+\newblock \emph{Journal of money, credit and banking}, 11\penalty0
+  (3):\penalty0 311--325, 1979.
+
+\bibitem[Matzinger(1994)]{matzinger1994}
+Polly Matzinger.
+\newblock Tolerance, danger, and the extended family.
+\newblock \emph{Annual review of immunology}, 12\penalty0 (1):\penalty0
+  991--1045, 1994.
+
+\bibitem[Matzinger(2002)]{matzinger2002}
+Polly Matzinger.
+\newblock The danger model: a renewed sense of self.
+\newblock \emph{Science}, 296\penalty0 (5566):\penalty0 301--305, 2002.
+
+\bibitem[Naef(2022)]{naef2022}
+Alain Naef.
+\newblock \emph{An exchange rate history of the United Kingdom, 1945--1992}.
+\newblock Cambridge University Press, 2022.
+
+\bibitem[Obstfeld(1994)]{obstfeld1994}
+Maurice Obstfeld.
+\newblock The logic of currency crises.
+\newblock \emph{Cahiers {\'e}conomiques et mon{\'e}taires}, 43:\penalty0
+  189--213, 1994.
+
+\bibitem[Obstfeld(1996)]{obstfeld1996}
+Maurice Obstfeld.
+\newblock Models of currency crises with self-fulfilling features.
+\newblock \emph{European economic review}, 40\penalty0 (3-5):\penalty0
+  1037--1047, 1996.
+
+\end{thebibliography}

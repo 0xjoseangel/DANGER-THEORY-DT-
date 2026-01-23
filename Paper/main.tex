@@ -1,0 +1,77 @@
+\documentclass[11pt,twoside]{article}
+
+\usepackage{paperlighter}
+% Recommended, but optional, packages for figures and better typesetting:
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{booktabs} % for professional tables
+
+% Attempt to make hyperref and algorithmic work together better:
+\newcommand{\theHalgorithm}{\arabic{algorithm}}
+
+
+% For theorems and such
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{amsthm}
+
+% if you use cleveref..
+\usepackage[capitalize,noabbrev]{cleveref}
+
+% TikZ for flowcharts
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows, positioning}
+\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=red!30]
+\tikzstyle{process} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=orange!30]
+\tikzstyle{decision} = [diamond, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=green!30, aspect=2]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% THEOREMS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{assumption}[theorem]{Assumption}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+% Todonotes is useful during development; simply uncomment the next line
+%    and comment out the line below the next line to turn off comments
+%\usepackage[disable,textsize=tiny]{todonotes}
+\usepackage[textsize=tiny]{todonotes}
+
+
+
+\slimtitle{Predicción de Crisis Cambiarias mediante Algoritmos Evolutivos Inspirados en la Teoría del Peligro: Un Enfoque Interdisciplinario}
+\slimauthor{José Ángel Carretero Montes$^{\dagger}$, Minerva Cebrián Marín$^{\ddagger}$ }
+
+
+
+\begin{document}
+
+\lightertitle{Predicción de Crisis Cambiarias mediante Algoritmos Evolutivos Inspirados en la Teoría del Peligro: Un Enfoque Interdisciplinario}
+
+\lighterauthor{José Ángel Carretero Montes$^{\dagger}$, Minerva Cebrian Marin$^{\ddagger}$}
+
+
+\lighteremail{joseangel1@correo.ugr.es}
+\lighteremail{mcm17@correo.ugr.es}
+
+
+\input{content/abstract}
+\input{content/format}
+\input{content/others}
+
+
+\bibliographystyle{plainnat}
+\bibliography{ref}
+
+
+\end{document}
