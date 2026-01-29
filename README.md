@@ -14,13 +14,17 @@ Aplicación de la **Teoría del Peligro (Danger Theory)** para detectar crisis c
 git clone https://github.com/0xjoseangel/DANGER-THEORY-DT-.git
 cd DANGER-THEORY-DT-
 
-# Crear entorno y activar
-conda create -n dt python=3.11 -y
-conda activate dt
+# Crear entorno con todas las dependencias
+conda env create -f environment.yml
 
-# Instalar dependencias
-conda install -c conda-forge pandas numpy matplotlib seaborn scikit-learn deap jupyterlab openpyxl scipy statsmodels -y
+# Activar entorno
+conda activate dt
 ```
+
+> Si ya tienes el entorno y quieres actualizarlo:
+> ```bash
+> conda env update -f environment.yml --prune
+> ```
 
 ## Ejecución
 
